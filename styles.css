@@ -1,0 +1,151 @@
+/**
+Palette: https://coolors.co/fdf3bc-fcc493-fdd5b9-59393a-e5804a
+Lemon: #FDF3BC
+Peach: #FCC493
+Apricot: #FDD5B9
+Ebony: #59393A
+Orange: #E5804A
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+#hero {
+    background-image: url("/Orgrimmar.webp");
+    background-size: cover;
+    min-height: 343px;
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 3px 3px; 
+}
+#hero-title, #hero-description {
+    background-color: #59393A;
+    color: #FDF3BC;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#horde-flag {
+    width: 100%;
+    position: absolute;
+    display: block;
+    margin: 10px 0 0 40%;
+} 
+#horde-flag-pic {
+    height: 100px;
+}
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.image-border {
+   border: 3px solid #FDF3BC; 
+}
+.underline {
+    border-bottom: 3px solid #59393A;
+}
+#activity-title {
+    background: linear-gradient(#E5804A, #FCC493);
+    padding: 50px 0 0 0;
+}
+#activities {
+    background: linear-gradient(#FCC493 96% , #E5804A);
+    padding: 60px 0 90px 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.paragraph {
+    width: 250px;
+    text-align: center;
+}
+.articles {
+    background-color: #E5804A;
+    padding: 30px;
+    border-radius: 20px;
+}
+h4, h3, h1, h2 {
+    text-shadow: 3px 3px 1px black;
+    color: #FDF3BC;
+}
+#guide {
+    background: linear-gradient(#E5804A 96% , #FCC493);
+    padding: 70px;
+}
+#card {
+    padding: 20px;
+    display: flex;
+    background-color: #FCC493;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.content-border {
+    border: 1px solid #59393A;
+}
+#guide-text {
+    padding: 0 20px 0 50px;
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+#guide-p {
+    background-color: #E5804A;
+    padding: 10px;
+    border-radius: 10px;
+}
+#horde-grunt {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+#visit {
+    background: linear-gradient( #FCC493 96% , #E5804A);
+    padding: 60px 150px 90px 150px;
+}
+#visit-card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #E5804A;
+    border-radius: 20px;
+}
+.visit-text {
+    width: 200px;
+}
+.city-img {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+#thunderbluff {
+    background-image: url("https://wow.zamimg.com/uploads/screenshots/normal/28743-thunder-bluff.jpg");
+}
+#undercity {
+    background-image: url("https://wow.zamimg.com/uploads/screenshots/normal/28750-undercity.jpg");
+}
+#thunderbluff:hover {
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/blog_header/7w/7WK6ZKHK4M8S1570206486645.jpg)
+}
+#undercity:hover {
+    background-image: url(https://wow.zamimg.com/uploads/screenshots/normal/7274-undercity.jpg)
+}
+#footer {
+    background-color: #E5804A;
+    padding: 30px;
+    text-align: end;
+}
